@@ -1,0 +1,150 @@
+[2026-06-03 13:33:47.955] Server started on port 18888
+[2026-06-03 13:33:48.974] [Client] Read file: test_file.txt (266 bytes)
+[2026-06-03 13:33:48.981] [Client] Chunk plan: N=3, Lmin=50, Lmax=100, seed=42
+[2026-06-03 13:33:48.982] [Client]   Chunk 1: 76 bytes
+[2026-06-03 13:33:48.982] [Client]   Chunk 2: 95 bytes
+[2026-06-03 13:33:48.982] [Client]   Chunk 3: 95 bytes
+[2026-06-03 13:33:48.988] [Client] Connected to 127.0.0.1:18888
+[2026-06-03 13:33:48.990] [Client] Sent: Initialization[N=3]
+[2026-06-03 13:33:48.990] Accepted connection from 127.0.0.1:51903
+[2026-06-03 13:33:48.992] [127.0.0.1:51903] Received: Initialization[N=3]
+[2026-06-03 13:33:48.993] [Client] Received: agree
+[2026-06-03 13:33:48.993] [127.0.0.1:51903] Sent: agree
+[2026-06-03 13:33:48.995] [Client] Sent block 1/3: length=76, text="ComputernetworkingisthefoundationofthemodernInternet
+TCPsocketprogrammingisa"
+[2026-06-03 13:33:48.997] [127.0.0.1:51903] Received block 1/3: length=76, text="ComputernetworkingisthefoundationofthemodernInternet
+TCPsocketprogrammingisa"
+[2026-06-03 13:33:48.999] [Client] Received block 1/3: reversed="asignimmargorptekcosPCT
+tenretnInredomehtfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Sent block 1/3: reversed="asignimmargorptekcosPCT
+tenretnInredomehtfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:33:49.000] [Client] Sent block 2/3: length=95, text="nessentialskillforbuildingnetworkedapplications
+Understandinghowdatapacketstraverseacrossdiffer"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Received block 2/3: length=95, text="nessentialskillforbuildingnetworkedapplications
+Understandinghowdatapacketstraverseacrossdiffer"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Sent block 2/3: reversed="reffidssorcaesrevartstekcapatadwohgnidnatsrednU
+snoitacilppadekrowtengnidliubrofllikslaitnessen"
+[2026-06-03 13:33:49.000] [Client] Received block 2/3: reversed="reffidssorcaesrevartstekcapatadwohgnidnatsrednU
+snoitacilppadekrowtengnidliubrofllikslaitnessen"
+[2026-06-03 13:33:49.000] [Client] Sent block 3/3: length=95, text="entnetworklayersiscrucial
+Reversingtextisafunexercisethatdemonstratesclientservercommunication
+"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Received block 3/3: length=95, text="entnetworklayersiscrucial
+Reversingtextisafunexercisethatdemonstratesclientservercommunication
+"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Sent block 3/3: reversed="
+noitacinummocrevrestneilcsetartsnomedtahtesicrexenufasitxetgnisreveR
+laicurcsisreyalkrowtentne"
+[2026-06-03 13:33:49.000] [Client] Received block 3/3: reversed="
+noitacinummocrevrestneilcsetartsnomedtahtesicrexenufasitxetgnisreveR
+laicurcsisreyalkrowtentne"
+[2026-06-03 13:33:49.000] [127.0.0.1:51903] Completed — all 3 blocks processed
+[2026-06-03 13:33:49.001] [Client] Wrote reversed file: test_file.txt.reversed (266 bytes)
+[2026-06-03 13:34:15.608] Server started on port 18889
+[2026-06-03 13:34:16.631] [Client] Read file: test_file.txt (266 bytes)
+[2026-06-03 13:34:16.632] [Client] Read file: test_file.txt (266 bytes)
+[2026-06-03 13:34:16.638] [Client] Chunk plan: N=4, Lmin=60, Lmax=80, seed=100
+[2026-06-03 13:34:16.639] [Client]   Chunk 1: 76 bytes
+[2026-06-03 13:34:16.639] [Client]   Chunk 2: 70 bytes
+[2026-06-03 13:34:16.639] [Client]   Chunk 3: 64 bytes
+[2026-06-03 13:34:16.639] [Client]   Chunk 4: 56 bytes
+[2026-06-03 13:34:16.639] [Client] Chunk plan: N=7, Lmin=30, Lmax=60, seed=200
+[2026-06-03 13:34:16.640] [Client]   Chunk 1: 36 bytes
+[2026-06-03 13:34:16.640] [Client]   Chunk 2: 32 bytes
+[2026-06-03 13:34:16.641] [Client]   Chunk 3: 42 bytes
+[2026-06-03 13:34:16.641] [Client]   Chunk 4: 51 bytes
+[2026-06-03 13:34:16.641] [Client]   Chunk 5: 31 bytes
+[2026-06-03 13:34:16.641] [Client]   Chunk 6: 53 bytes
+[2026-06-03 13:34:16.641] [Client]   Chunk 7: 21 bytes
+[2026-06-03 13:34:16.645] [Client] Connected to 127.0.0.1:18889
+[2026-06-03 13:34:16.646] [Client] Connected to 127.0.0.1:18889
+[2026-06-03 13:34:16.646] [Client] Sent: Initialization[N=4]
+[2026-06-03 13:34:16.647] Accepted connection from 127.0.0.1:52034
+[2026-06-03 13:34:16.648] [Client] Sent: Initialization[N=7]
+[2026-06-03 13:34:16.648] Accepted connection from 127.0.0.1:52035
+[2026-06-03 13:34:16.649] [127.0.0.1:52035] Received: Initialization[N=7]
+[2026-06-03 13:34:16.650] [127.0.0.1:52034] Received: Initialization[N=4]
+[2026-06-03 13:34:16.650] [Client] Received: agree
+[2026-06-03 13:34:16.650] [Client] Received: agree
+[2026-06-03 13:34:16.651] [127.0.0.1:52035] Sent: agree
+[2026-06-03 13:34:16.651] [127.0.0.1:52034] Sent: agree
+[2026-06-03 13:34:16.652] [Client] Sent block 1/7: length=36, text="Computernetworkingisthefoundationoft"
+[2026-06-03 13:34:16.653] [Client] Sent block 1/4: length=76, text="ComputernetworkingisthefoundationofthemodernInternet
+TCPsocketprogrammingisa"
+[2026-06-03 13:34:16.654] [127.0.0.1:52034] Received block 1/4: length=76, text="ComputernetworkingisthefoundationofthemodernInternet
+TCPsocketprogrammingisa"
+[2026-06-03 13:34:16.654] [127.0.0.1:52035] Received block 1/7: length=36, text="Computernetworkingisthefoundationoft"
+[2026-06-03 13:34:16.656] [Client] Received block 1/4: reversed="asignimmargorptekcosPCT
+tenretnInredomehtfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:34:16.656] [127.0.0.1:52035] Sent block 1/7: reversed="tfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:34:16.656] [127.0.0.1:52034] Sent block 1/4: reversed="asignimmargorptekcosPCT
+tenretnInredomehtfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:34:16.657] [Client] Sent block 2/4: length=70, text="nessentialskillforbuildingnetworkedapplications
+Understandinghowdatapa"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Received block 2/4: length=70, text="nessentialskillforbuildingnetworkedapplications
+Understandinghowdatapa"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Sent block 2/4: reversed="apatadwohgnidnatsrednU
+snoitacilppadekrowtengnidliubrofllikslaitnessen"
+[2026-06-03 13:34:16.657] [Client] Received block 1/7: reversed="tfonoitadnuofehtsignikrowtenretupmoC"
+[2026-06-03 13:34:16.657] [Client] Received block 2/4: reversed="apatadwohgnidnatsrednU
+snoitacilppadekrowtengnidliubrofllikslaitnessen"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Received block 3/4: length=64, text="cketstraverseacrossdifferentnetworklayersiscrucial
+Reversingtext"
+[2026-06-03 13:34:16.657] [Client] Sent block 3/4: length=64, text="cketstraverseacrossdifferentnetworklayersiscrucial
+Reversingtext"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Sent block 3/4: reversed="txetgnisreveR
+laicurcsisreyalkrowtentnereffidssorcaesrevartstekc"
+[2026-06-03 13:34:16.657] [Client] Received block 3/4: reversed="txetgnisreveR
+laicurcsisreyalkrowtentnereffidssorcaesrevartstekc"
+[2026-06-03 13:34:16.657] [Client] Sent block 4/4: length=56, text="isafunexercisethatdemonstratesclientservercommunication
+"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Received block 4/4: length=56, text="isafunexercisethatdemonstratesclientservercommunication
+"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Sent block 4/4: reversed="
+noitacinummocrevrestneilcsetartsnomedtahtesicrexenufasi"
+[2026-06-03 13:34:16.657] [Client] Received block 4/4: reversed="
+noitacinummocrevrestneilcsetartsnomedtahtesicrexenufasi"
+[2026-06-03 13:34:16.657] [127.0.0.1:52034] Completed — all 4 blocks processed
+[2026-06-03 13:34:16.658] [Client] Sent block 2/7: length=32, text="hemodernInternet
+TCPsocketprogra"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Received block 2/7: length=32, text="hemodernInternet
+TCPsocketprogra"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Sent block 2/7: reversed="argorptekcosPCT
+tenretnInredomeh"
+[2026-06-03 13:34:16.658] [Client] Received block 2/7: reversed="argorptekcosPCT
+tenretnInredomeh"
+[2026-06-03 13:34:16.658] [Client] Sent block 3/7: length=42, text="mmingisanessentialskillforbuildingnetworke"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Received block 3/7: length=42, text="mmingisanessentialskillforbuildingnetworke"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Sent block 3/7: reversed="ekrowtengnidliubrofllikslaitnessenasignimm"
+[2026-06-03 13:34:16.658] [Client] Wrote reversed file: test_file.txt.reversed (266 bytes)
+[2026-06-03 13:34:16.658] [Client] Received block 3/7: reversed="ekrowtengnidliubrofllikslaitnessenasignimm"
+[2026-06-03 13:34:16.658] [Client] Sent block 4/7: length=51, text="dapplications
+Understandinghowdatapacketstraverseac"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Received block 4/7: length=51, text="dapplications
+Understandinghowdatapacketstraverseac"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Sent block 4/7: reversed="caesrevartstekcapatadwohgnidnatsrednU
+snoitacilppad"
+[2026-06-03 13:34:16.658] [Client] Received block 4/7: reversed="caesrevartstekcapatadwohgnidnatsrednU
+snoitacilppad"
+[2026-06-03 13:34:16.658] [Client] Sent block 5/7: length=31, text="rossdifferentnetworklayersiscru"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Received block 5/7: length=31, text="rossdifferentnetworklayersiscru"
+[2026-06-03 13:34:16.658] [127.0.0.1:52035] Sent block 5/7: reversed="urcsisreyalkrowtentnereffidssor"
+[2026-06-03 13:34:16.659] [Client] Received block 5/7: reversed="urcsisreyalkrowtentnereffidssor"
+[2026-06-03 13:34:16.659] [Client] Sent block 6/7: length=53, text="cial
+Reversingtextisafunexercisethatdemonstratesclien"
+[2026-06-03 13:34:16.659] [127.0.0.1:52035] Received block 6/7: length=53, text="cial
+Reversingtextisafunexercisethatdemonstratesclien"
+[2026-06-03 13:34:16.659] [127.0.0.1:52035] Sent block 6/7: reversed="neilcsetartsnomedtahtesicrexenufasitxetgnisreveR
+laic"
+[2026-06-03 13:34:16.659] [Client] Received block 6/7: reversed="neilcsetartsnomedtahtesicrexenufasitxetgnisreveR
+laic"
+[2026-06-03 13:34:16.659] [Client] Sent block 7/7: length=21, text="tservercommunication
+"
+[2026-06-03 13:34:16.659] [127.0.0.1:52035] Received block 7/7: length=21, text="tservercommunication
+"
+[2026-06-03 13:34:16.659] [127.0.0.1:52035] Sent block 7/7: reversed="
+noitacinummocrevrest"
+[2026-06-03 13:34:16.659] [Client] Received block 7/7: reversed="
+noitacinummocrevrest"
+[2026-06-03 13:34:16.659] [127.0.0.1:52035] Completed — all 7 blocks processed
+[2026-06-03 13:34:16.660] [Client] Wrote reversed file: test_file.txt.reversed (266 bytes)
